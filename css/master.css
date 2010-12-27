@@ -6,9 +6,10 @@ h2 {
 	line-height:20%;
 	}
 
-p {
+h4 {
 	font: 87%/270%; 
 	font-family: "Palatino Linotype", Palatino, serif; 
 	color:blue; 
+	font-weight:normal;
 	text-align:right;
 	}
