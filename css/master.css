@@ -4,18 +4,30 @@
 */
 /* remove the background color for screen */
 #screen {
-			width: 90%;
-			max-width: 900px;
-			min-width: 480px;
-			margin: 20px auto;
-			/*background: #FEF6F8;  */ /* Use this for testing*/
-			padding: 10px 10px 10px 0;
+		  width: 90%;
+		  max-width: 900px;
+		  min-width: 480px;
+		  margin: 20px auto;
+		  /*background: #FEF6F8;  */ /* Use this for testing*/
+		  padding: 10px 10px 10px 0;
 		}
 
-#projects {width: 75%; border-bottom: 2px solid black;}
-#tweets {width: 75%;}
+#projects {
+			width: 75%;
+			border-bottom: 2px solid black;
+		  }
 
-#about {width: 25%; margin-left: 74%; position: fixed; top: 5%;  background: #ACACAC;}
+#tweets {
+	      width: 75%;
+	    }
+
+#about {
+		 width: 25%;
+		 margin-left: 74%;
+		 position: fixed;
+		 top: 5%;
+		 background: #ACACAC;
+		}
 
 /*
 h4#about {
@@ -36,16 +48,14 @@ p#about {
 */
 
 h2 {
-	font-family: "Palatino Linotype", Palatino, serif;
-	color:black;
-	text-align:right;
-	font-weight:bold;
+	 font-size: 1.5em;
+	 font-family: "Arial", Arial;
+	 color:black;
+	 text-align:right;
+	 font-weight:bold;
 	}
 
-h4 {
-	font: 87%/270%;
-	font-family: "Palatino Linotype", Palatino, serif;
-	color:blue;
-	font-weight:normal;
-	text-align:right;
-	}
+p {
+	font-size: .9em;
+  }
+
