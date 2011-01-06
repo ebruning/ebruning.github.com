@@ -12,7 +12,7 @@
 			border-bottom: 2px solid black;
 		  }
 
-#tweets {
+#rants {
 	      width: 75%;
 	    }
 
@@ -20,9 +20,8 @@
 		 width: 20%;
 		 margin-left: 75%;
 		 position: absolute;
-		 top: 2em;
-		 right: 2em;
-		 background: #ACACAC;
+		 top: 1em;
+		 right: 1em;
 		}
 
 #footer {
@@ -40,12 +39,10 @@ h2 {
 p {
 	font-size: .9em;
   }
-
-h2#about {
-	color:white;
-	}
-
-p#about {
+p#about_links {
+	font-size: .75em;
+	text-align: right;
+	margin-right: 5px;
 }
 
 .box {
@@ -70,13 +67,15 @@ p#about {
 .box_bottom div,
 .box_bottom {
    width: 100%;
-   height: 30px;
+   height: 20px;
    font-size: 1px;
 }
 /*.roundedcornr_content { margin: 0 30px; } */
 
 .box_content{
-	 padding-left: 2px;
-	 padding-right: 2px;
+	 color:white;
+	 margin-left: 5px;
+/*	 padding-left: 2px;
+	 padding-right: 2px;*/
 }
 
