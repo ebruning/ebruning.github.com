@@ -48,33 +48,34 @@ h2#about {
 p#about {
 }
 
-.roundedcornr_box {
+.box {
    background: #acacac;
 }
-.roundedcornr_top div {
-   background: url(../images/roundedcornr_735132_tl.png) no-repeat top left;
+.box_top div {
+   background: url(../images/tl.png) no-repeat top left;
 }
-.roundedcornr_top {
-   background: url(../images/roundedcornr_735132_tr.png) no-repeat top right;
+.box_top {
+   background: url(../images/tr.png) no-repeat top right;
 }
-.roundedcornr_bottom div {
-   background: url(../images/roundedcornr_735132_bl.png) no-repeat bottom left;
+.box_bottom div {
+   background: url(../images/bl.png) no-repeat bottom left;
 }
-.roundedcornr_bottom {
-   background: url(../images/roundedcornr_735132_br.png) no-repeat bottom right;
+.box_bottom {
+   background: url(../images/br.png) no-repeat bottom right;
 }
 
 
-.roundedcornr_top div, .roundedcornr_top,
-
-.roundedcornr_bottom div, .roundedcornr_bottom {
+.box_top div,
+.box_top,
+.box_bottom div,
+.box_bottom {
    width: 100%;
    height: 30px;
    font-size: 1px;
 }
 /*.roundedcornr_content { margin: 0 30px; } */
 
-.roundedcornr_content{
+.box_content{
 	 padding-left: 2px;
 	 padding-right: 2px;
 }
