@@ -1,15 +1,10 @@
-/*#about {width:20%; background: #ACACAC;}*/
-/*#projects {width:80%; margin: 10px auto;}
-#tweets {width:80%; margin: 10px auto;}
-*/
-/* remove the background color for screen */
 #screen {
 		  width: 90%;
 		  max-width: 900px;
 		  min-width: 480px;
 		  margin: 20px auto;
 		  /*background: #FEF6F8;  */ /* Use this for testing*/
-		  padding: 10px 10px 10px 0;
+		  adding: 10px 10px 10px 0;
 		}
 
 #projects {
@@ -22,30 +17,17 @@
 	    }
 
 #about {
-		 width: 25%;
-		 margin-left: 74%;
-		 position: fixed;
-		 top: 5%;
+		 width: 20%;
+		 margin-left: 75%;
+		 position: absolute;
+		 top: 2em;
+		 right: 2em;
 		 background: #ACACAC;
 		}
 
-/*
-h4#about {
-	font-family: "Palatino Linotype", Palatino, serif;
-	color:black;
-	font-weight:normal;
-	text-align:center;
-	white-space:nowrap;
-	}
-
-p#about {
-	font-family: "Palatino Linotype", Palatino, serif;
-	font: 80%;
-	color:white;
-	text-align:left;
-	white-space:normal;
-}
-*/
+#footer {
+		 font-size: .75em;
+        }
 
 h2 {
 	 font-size: 1.5em;
@@ -58,4 +40,42 @@ h2 {
 p {
 	font-size: .9em;
   }
+
+h2#about {
+	color:white;
+	}
+
+p#about {
+}
+
+.roundedcornr_box {
+   background: #acacac;
+}
+.roundedcornr_top div {
+   background: url(../images/roundedcornr_735132_tl.png) no-repeat top left;
+}
+.roundedcornr_top {
+   background: url(../images/roundedcornr_735132_tr.png) no-repeat top right;
+}
+.roundedcornr_bottom div {
+   background: url(../images/roundedcornr_735132_bl.png) no-repeat bottom left;
+}
+.roundedcornr_bottom {
+   background: url(../images/roundedcornr_735132_br.png) no-repeat bottom right;
+}
+
+
+.roundedcornr_top div, .roundedcornr_top,
+
+.roundedcornr_bottom div, .roundedcornr_bottom {
+   width: 100%;
+   height: 30px;
+   font-size: 1px;
+}
+/*.roundedcornr_content { margin: 0 30px; } */
+
+.roundedcornr_content{
+	 padding-left: 2px;
+	 padding-right: 2px;
+}
 
